@@ -4,6 +4,12 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "AI Personality",
   description: "A minimalistic AI chat interface",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
+  },
 };
 
 export default function RootLayout({
@@ -13,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="touch-manipulation">{children}</body>
     </html>
   );
 }
