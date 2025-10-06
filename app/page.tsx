@@ -166,10 +166,10 @@ export default function Home() {
                 {/* Text Content */}
                 <div className="space-y-3">
                   <h2 className="text-xl font-semibold text-white/90 tracking-tight">
-                    Chat with Arush
+                    Welcome
                   </h2>
                   <p className="text-white/40 text-sm leading-relaxed px-4">
-                    Ask me anything about AI, physics, coding, or just have a conversation.
+                    Ask me about my experience in AI, cloud development, or any of my projects.
                   </p>
                 </div>
               </div>
